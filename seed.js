@@ -6,7 +6,6 @@ mongoose.connect('mongodb://localhost:27017/shopping-app')
     .then(() => console.log('DB Connected'))
     .catch((err) => console.log(err));
 
-
 const products = [
     {
         name: 'Iphone 11',
@@ -52,7 +51,6 @@ const products = [
     },
 
 ];
-
 
 
 async function seedDB(){

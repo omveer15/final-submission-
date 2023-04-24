@@ -1,6 +1,5 @@
 const allLikeButton = document.querySelectorAll('.like-button');
 
-
 async function likeButton(productid,btn) {
    
     try {
